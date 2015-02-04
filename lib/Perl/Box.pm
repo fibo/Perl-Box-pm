@@ -51,9 +51,13 @@ Yes, 'cause I'm my first (and only!? :) user. Read here L<what is included|https
 
 =item *
 
+L<Catalyst::Devel> C<v1.39>
+
+=item *
+
 L<Mojolicious> C<v5.77>
 
-I really like it! It is a great web framework.
+I really like it! It is my favourite web framework.
 
 L<Dancer> C<v1.3132>
 
@@ -91,6 +95,10 @@ L<DateTime> C<1.18>
 
 =item *
 
+L<Template> C<2.26>
+
+=item *
+
 L<Test::Class> C<0.48>
 
 =item *
@@ -99,7 +107,11 @@ L<Test::Most> C<0.34>
 
 =item *
 
-L<YAML>
+L<YAML> C<v1.14>
+
+=item *
+
+L<App::FatPacker> C<v0.010002>
 
 =back
 

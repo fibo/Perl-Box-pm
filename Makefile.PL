@@ -19,6 +19,8 @@ WriteMakefile(
         },
     },
     PREREQ_PM => {
+        'App::FatPacker'     => '0.010002',
+        'Catalyst::Devel'    => '1.39',
         'Dancer'             => '1.3132',
         'Dist::Zilla'        => '5.031',
         'DateTime'           => '1.18',
@@ -28,6 +30,7 @@ WriteMakefile(
         'Moose'              => '2.1403',
         'Moo'                => '1.007000',
         'Task::BeLike::FIBO' => '0.14',
+        'Template'           => '2.26',
         'Test::Class'        => '0.48',
         'Test::Most'         => '0.34',
         'YAML'               => '1.14',
