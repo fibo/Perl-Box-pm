@@ -109,6 +109,8 @@ Wanna create your own Perl Box? It will take few minutes.
 
 Perl Box is created from Codio default stack. Create a Codio project and open a Terminal.
 
+=head2 PERL
+
 Use L<dotsoftware|http://g14n.info/dotsoftware/> to install latest Perl. Just copy and paste the following commands.
 
     # get latest .software
@@ -122,9 +124,36 @@ Use L<dotsoftware|http://g14n.info/dotsoftware/> to install latest Perl. Just co
 
 Configure L<a CPAN client that works like a charm|http://g14n.info/2014/03/a-cpan-client-that-works-like-charm/>.
 
+=head2 DISTRIBUTIONS
+
 Install what you need from CPAN, for instance
 
     cpan Perl::Box
+
+=head2 EDITOR
+
+Choose L<vim|http://www.vim.org/> as default editor
+
+    # Needed by git commit -a
+    echo export EDITOR=vim >> ~/.bash_profile
+
+Minimal vim configuration
+
+    cat >> ~/.vimrc <<EOF
+    " my Perl preferences
+    autocmd filetype perl map <F2> :%!perltidy<CR> " indent
+    autocmd filetype perl map <F3> :!prove -l<CR>  " run tests
+    autocmd filetype perl setlocal autoindent
+    autocmd filetype perl setlocal expandtab
+    autocmd filetype perl setlocal shiftwidth=4
+    autocmd filetype perl setlocal tabstop=4
+
+    " use perltidy for .pl, .pm, and .t
+    au BufRead,BufNewFile *.pl setl equalprg=perltidy
+    au BufRead,BufNewFile *.pm setl equalprg=perltidy
+    au BufRead,BufNewFile *.t setl equalprg=perltidy
+    EOF
+
 
 =head1 COPYRIGHT AND LICENSE
 
