@@ -9,7 +9,7 @@ WriteMakefile(
     AUTHOR           => 'G. Casati <fibo@cpan.org>',
     NAME             => 'Perl::Box',
     LICENSE          => 'artistic_2',
-    MIN_PERL_VERSION => '5.20',
+    MIN_PERL_VERSION => '5.20.0',
     META_MERGE       => {
         resources => {
             homepage   => 'https://metacpan.org/pod/Perl::Box',
