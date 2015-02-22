@@ -55,7 +55,11 @@ L<Catalyst::Devel> C<v1.39>
 
 =item *
 
-L<Mojolicious> C<v5.77>
+L<Catalyst::Runtime> C<v5.90083>
+
+=item *
+
+L<Mojolicious> C<v5.81>
 
 I really like it! It is my favourite web framework.
 
@@ -126,6 +130,20 @@ L<Digest::MD5> C<v2.54>
 =item *
 
 L<Regexp::Common> C<2013031301>
+
+=item *
+
+L<LWP> C<v6.13>
+
+One of the must have distros.
+
+=item *
+
+L<List::Util> C<v1.41>
+
+=item *
+
+L<List::MoreUtils> C<v0.405>
 
 =back
 
