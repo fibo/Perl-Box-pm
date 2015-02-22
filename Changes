@@ -1,4 +1,10 @@
 
-2015-02-03 v0.01
+2015-0x-xx v0.03
++ App::cloc
++ Algorithm::Diff
++ Regexp::Common
++ Digest::MD5
+
+2015-02-07 v0.02
 + first release
 
