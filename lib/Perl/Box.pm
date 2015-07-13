@@ -14,11 +14,13 @@ Perl::Box - is a ready to use Codio box. Start coding now!
 
 <p><a href="https://metacpan.org/pod/Perl::Box" target="_blank"><img alt="CPAN version" src="https://badge.fury.io/pl/Perl-Box.svg"></a> <a href="https://travis-ci.org/fibo/Perl-Box-pm" target="_blank"><img alt="Build Status" src="https://travis-ci.org/fibo/Perl-Box-pm.svg?branch=master"></a></p>
 
+<p><a href="https://codio.com/fibo/perl-box" target="_blank"><img alt="Show me a Demo at Codio" src="https://codio-public.s3.amazonaws.com/sharing/demo-in-ide.png"></a></p>
+
 =end HTML
 
 =head1 SYNOPSIS
 
-Go to L<Codio|https://codio.com/>. Create a project. Choose Perl5 stack. Start coding!
+Go to L<Codio|https://codio.com/>. Create a project. Choose the L<Perl5 stack|https://codio.com/home/stacks/1bda23fe-96a3-422d-ad73-98368bcc8cf5>. Start coding!
 
 =head1 DESCRIPTION
 
